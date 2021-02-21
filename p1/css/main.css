@@ -1,0 +1,52 @@
+/*******************
+default style rule set for CSS
+selector {
+    property: value;
+}
+*******************/
+
+body {
+  background-image: url("background-6.jpg");
+  font-family: 'Slackey', cursive;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+h1{
+  color: Orchid;
+  text-align: center;
+  font-size: 200px;
+  text-shadow: 2px 2px 5px black;
+  margin: 0;
+}
+
+h2{
+  color: Orchid;
+  text-align: center;
+  font-size: 48px;
+  text-shadow: 2px 2px 5px black;
+  margin: 0;
+}
+
+p {
+  color: Orchid;
+  text-align: center;
+  font-size: 72px;
+  text-shadow: 2px 2px 5px black;
+}
+
+a:link {
+  color: Orchid;
+  text-decoration: none;
+}
+
+a:visited {
+  color: Orchid;
+  text-decoration: none;
+}
+
+a:hover {
+  font-style: italic;
+  color: dodgerblue;
+  text-decoration: none;
+}
