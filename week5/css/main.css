@@ -1,0 +1,23 @@
+h1 {
+  color: red;
+}
+
+#wilson {
+  color: black;
+}
+
+.student {
+  color: blue;
+}
+
+#michael {
+  color: yellow;
+}
+
+.teacher {
+  color: pink;
+}
+
+img{
+  max-width: 100%;
+}

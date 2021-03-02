@@ -1,0 +1,56 @@
+body {
+  background-color: lavender;
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  color: Royalblue;
+}
+
+h1 {
+  font-family: poplar-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+  text-shadow: 7px 7px Royalblue;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+h2 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+
+ul {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+#title {
+  color:#ff99ff;
+}
+
+#desc {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#red {
+  color: #ff99ff;
+}
+
+#seven {
+  color: tomato;
+}
