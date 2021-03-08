@@ -29,7 +29,7 @@ p {
   font-size: 72px;
 }
 
-a:link, a:visited, a:hover {
+a:link, a:visited {
   color: Orchid;
   text-decoration: none;
 }
