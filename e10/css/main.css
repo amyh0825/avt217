@@ -1,0 +1,124 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  background-color:tomato;
+  margin:0;
+}
+
+
+.checkerboard{
+  width:800px;
+  display:flow-root;
+  margin:50px auto 0;
+}
+.pink,.white{
+  width:100px;
+  height:100px;
+  float:left;
+}
+.pink{
+  background-color:#ff99ff;
+}
+.white{
+  background-color:cornsilk;
+}
+
+
+#col header, .column, #col footer{
+  background-color:cornsilk;
+}
+#col header, #col footer{
+  width:800px;
+  height:100px;
+  margin:25px auto;
+}
+.subhead{
+  width:800px;
+  height:25px;
+  margin:0 auto;
+  background-color: #ff99ff;
+}
+#col main{
+  width:800px;
+  margin:25px auto;
+  display:flow-root;
+}
+.column{
+  width:250px;
+  height:600px;
+  float:left;
+}
+.center-margin{
+  margin:0 25px;
+}
+
+
+img{
+  width:100%;
+}
+#blog header, .text, .line{
+  background-color: cornsilk;
+}
+#blog header{
+  width:800px;
+  height:100px;
+  margin:25px auto 50px;
+}
+#blog main{
+  width:800px;
+  margin:0 auto;
+}
+.entry{
+  margin:0 0 50px;
+  display:flow-root;
+}
+.text{
+  width:600px;
+  height:400px;
+  float:left;
+}
+.profile{
+  width:175px;
+  height:200px;
+  margin-left:25px;
+  float:left;
+  background-color:#ff99ff;
+}
+.line{
+  width:600px;
+  height:50px;
+  margin:25px 0 50px;
+  float:left;
+}
+
+
+
+.court, .side, .back, .center {
+  border: 5px solid white;
+  background-color: none;
+}
+.court {
+  width: 560px;
+  display: flow-root;
+  margin:100px auto 100px;
+}
+.middle {
+  width: 300px;
+  float: left;
+}
+.side {
+  width: 125px;
+  height: 300px;
+  float: left;
+}
+.back {
+  width: 300px;
+  height: 100px;
+  float: left;
+}
+.center {
+  width: 150px;
+  height: 200px;
+  float: left;
+}
